@@ -1,0 +1,108 @@
+#contenedorTotalPrincipal{
+	background-repeat: no-repeat;
+	background-size: 100%;
+	background-image: url('https://www.silocreativo.com/wp-content/uploads/2015/06/fondo-descargable-julio.png');
+    width: 99%;
+    height: 98%;
+    position: absolute;
+}
+.NumeroDeDias{
+    width: 250px;
+    left: 31%;
+	position: absolute;
+
+	background-color: transparent;
+    /* border-bottom: 62px; */
+    /* border-color: orange; */
+    border-left: transparent;
+    border-right: transparent;
+    border-top: transparent;
+    border-bottom-color: rgba(255, 87, 34, 0.46);
+    outline:0px;
+    font-family: cursive;
+    font-size: 11px;
+
+}
+.InicioDeVigencia{
+    width: 250px;
+    left: 31%;
+    position: absolute;
+
+    background-color: transparent;
+    /* border-bottom: 62px; */
+    /* border-color: orange; */
+    border-left: transparent;
+    border-right: transparent;
+    border-top: transparent;
+    border-bottom-color: rgba(255, 87, 34, 0.46);
+    outline:0px;
+    font-family: cursive;
+    font-size: 11px;
+
+}
+.ConutryCode{
+    width: 250px;
+    left: 31%;
+	position: absolute;
+
+    background-color: transparent;
+    /* border-bottom: 62px; */
+    /* border-color: orange; */
+    border-left: transparent;
+    border-right: transparent;
+    border-top: transparent;
+    border-bottom-color: rgba(255, 87, 34, 0.46);
+    outline:0px;
+    font-family: cursive;
+    font-size: 11px;
+
+}
+#ContainerSelectCalendar{
+    background-color: rgba(255, 255, 255, 0.54);
+    width: 434px;
+    height: 73%;
+    /* margin: 5%; */
+    padding: 3%;
+    padding-top: 12%;
+    position: absolute;
+    /* right: 5%; */
+    /* top: 30%; */
+    border-radius: 7px 65px 61px 7px;
+    -moz-border-radius: 7px 65px 61px 7px;
+    -webkit-border-radius: 7px 65px 61px 7px;
+    border: 0px solid #000000;
+}
+#titulo{
+    width: 173px;
+    height: 16px;
+    background-color: rgba(255, 87, 34, 0.52);
+    /* top: 25%; */
+    padding: 6px;
+    border-radius: 29px 43px 0px 0px;
+    -moz-border-radius: 29px 43px 0px 0px;
+    -webkit-border-radius: 7px 7px 0px 0px;
+    border: 0px solid #000000;
+    color: #fff;
+    font-family: cursive;
+    font-size: small;
+}
+.contenedorTotal{
+    width: 30%;
+    position: absolute;
+    height: 40%;
+    right: 12%;
+    top: 31%;
+}
+label{
+    left: 11.5%;
+    position: absolute;
+    font-family: cursive;
+    font-size: x-small;
+    color: #fff;
+}
+.next{
+	position: absolute;
+    width: 43px;
+    right: 59px;
+    bottom: 11px;
+}

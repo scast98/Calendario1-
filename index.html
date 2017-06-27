@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" href="style.css">
+	<meta charset="utf-8">
+	<!-- <script src="jquery-3.2.1.min.js"></script> -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.2.1.min.js"></script>
+	<script type="text/javascript" src="https://www.google.com/jsapi"></script>
+	<title>Calendario</title>
+</head>
+<body>
+
+<div id="contenedorTotalPrincipal" style="display: block;">
+
+
+	<div class="contenedorTotal">
+		<div id='titulo'>
+			<b>CALENDAR GESTOR</b>
+		</div>
+		<div id='ContainerSelectCalendar'>
+		<br>
+		<form>
+		<label>Start Date</label>
+			<input type="date" name="" class = 'InicioDeVigencia' id="fecha"><br><br>
+		<label>Number of days:</label>
+			<input type="number" name="" class = 'NumeroDeDias' id="NumeroDeDias"><br><br>
+		<label>Country Code:</label>
+			<select class = 'ConutryCode'>
+				<option value="US">US</option>
+			</select>
+		</form>
+	         <a onclick="views()"><img src="http://icon-icons.com/icons2/621/PNG/512/redo-arrow-1_icon-icons.com_56892.png" class="next"></a>
+		</div>
+	</div>
+
+</div>
+
+<div id="contenedorTotalPrincipal2" style="display: none;">
+<div class="mes"></div>
+<script src="logic.js"></script>
+
+</body>
+
+</html>
